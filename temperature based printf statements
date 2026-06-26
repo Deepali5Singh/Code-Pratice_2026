@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main () {
+char scale;
+int temperature;
+float Celsius;
+scanf("%c", &scale);
+scanf("%d", & temperature);
+if (scale == 'F')
+{
+Celsius = (temperature - 32 ) * 5.0/9.0 ;
+}
+if (temperature < 0)
+printf("Freezing ");
+else if (temperature >= 0 && temperature <= 20)
+printf ("Cold");
+else if(temperature >= 21 && temperature <=30)
+printf("Pleasent");
+else if (temperature > 30)
+printf("Hot");
+}
