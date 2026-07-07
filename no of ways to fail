@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+
+int main () {
+int n ;
+int combination;
+
+int fail_combination;
+
+combination = pow(2, n);
+
+
+ fail_combination = combination - 1;
+printf(fail_combination);
+
+
+
+}
+
