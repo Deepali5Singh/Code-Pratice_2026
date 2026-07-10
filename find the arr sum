@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main () {
+int arr [4] = {4, 5, 6, 9};
+int tartget = 9;
+int low = 0;
+int high = n - 1;
+for (int i = 0; i<n ; i++)
+{
+if(arr[low] + arr[high] == target){
+printf("Element found");
+break;
+}
+}
