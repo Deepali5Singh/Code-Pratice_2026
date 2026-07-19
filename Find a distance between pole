@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main () { 
+
+int nOfPole = 21;
+
+int distance =  400;
+
+int poleDistance = distance / (nOfPole - 1);
+
+printf("%d", poleDistance);
+
+
+}
