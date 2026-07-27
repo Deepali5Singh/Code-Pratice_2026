@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main () {
+    int value; // define the varible for the countdown
+    scanf("%d",&value); // take the user from the user to start the countdown
+    while(value>1) // the count down value should be less than
+    {  
+      printf("%d",value);// print the user input
+      value--; // decrease  -1 from the user input
+    }
+    if(value == 1){ // if after drement the count reaches to the 1
+        printf("blastoff"); //then print the blast
+    }
+}
