@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main () {
+    int range= 2; //range starting point 
+    int limit; // range ending point
+    scanf("%d",&limit); // user can define end for the limit
+    while(range <=limit){ // range can not be greater than limit
+        
+        if( range%2 == 0){ // check the number whether is divisble by 2 or not
+           
+            printf("%d\n",range); // print the even number
+        }
+        range++; // increment the current number by 1
+    }
+}
