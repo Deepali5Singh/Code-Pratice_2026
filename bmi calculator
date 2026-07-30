@@ -1,0 +1,53 @@
+#include <stdio.h>
+
+int main() {
+    float weight, height, bmi;
+    int weight_result, height_result;
+    weight_result = scanf("%f", &weight);
+    height_result = scanf("%f", &height);
+
+    // Validate input
+    
+    // Calculate BMI
+    
+    // Determine weight category
+    
+    // Print results
+      if(weight_result == 1 && height_result == 1){
+if (weight>=30 && weight<= 300){
+   
+   if(height>=1.0 && height<=2.5)
+{
+     bmi = weight / (height * height);
+    
+     if(bmi<18.5){
+        printf("BMI: %.1f\n",bmi);
+        printf("Category: Underweight");
+     }
+     else if (bmi>=18.5 && bmi<24.9){
+       printf("BMI: %.1f\n",bmi);
+        printf("Category: Normal weight");
+     }
+     else if(bmi>=25.0 && bmi<=29.9){
+       printf("BMI: %.1f\n",bmi);
+        printf("Category: Overweight");
+     }
+     else{
+     printf("BMI: %.1f\n",bmi);
+        printf("Category: Obese");
+     }
+}
+else{
+    printf("Height out of range!");
+}
+}
+else{
+    printf("Weight out of range!");
+}
+
+}
+else{
+        printf("Invalid input type!");
+    }
+    return 0;
+}
