@@ -1,0 +1,31 @@
+\\ATM machine program
+
+
+#include<stdio.h>
+
+int main () {
+    printf("Select 1 for checkbalance\n");
+    printf("Select 2 for widraw cash\n");
+    printf("Select 3 for deposit cash\n");
+    printf("Select 4 for exit\n");
+    int choice;
+    do{
+scanf("%d", &choice);
+switch(choice){
+    case 1 :
+    printf("The amount is 45666");
+    break;
+    case 2 :
+    printf("Select the amount to widraw cash");
+    break;
+    case 3:
+    printf("Select the amount to deposit cash");
+    break;
+    case 4:
+    printf("Thanks for chosing us");
+    break;
+
+}
+    }
+    while(choice == 4);
+}
