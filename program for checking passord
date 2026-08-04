@@ -1,0 +1,17 @@
+//program for checking passord
+#include<stdio.h>
+int main ()
+{
+    int password = 1234;
+    int input ;
+   do{
+    scanf("%d",&input);
+    if(input!= password){
+        printf("access denied\n");
+        printf("Enter password again\n");
+    }
+   }
+   while(input!= password);
+   printf("access provide");
+
+}
