@@ -1,0 +1,38 @@
+#include<stdio.h>
+//standard input output library
+int main () {
+    // main function
+    int a [2] [2] = {{1,1},{1,1}};
+    //first array initialized
+     int b [2] [2] = {{1,1},{1,1}};
+    //second array initialized
+    int sum [2] [2];
+    // storing the sum, the sum array is declared
+    printf("The first array\n");
+    //the statement is telling first array is going to, print
+    //printing the first array
+    for(int i = 0; i<2;i++){
+        for(int j =0; j<2; j++){
+            printf("%d\t",a[i][j]);
+        }
+        printf("\n");
+    }
+    printf("The second array \n");
+     //the statement is telling second array is going to, print
+    //printing the second array
+    for(int i = 0; i<2;i++){
+        for(int j =0; j<2; j++){
+            printf("%d\t",b[i][j]);
+        }
+        printf("\n");
+    }
+    //the statement is telling sum of arrays a & b is going to be printed
+    printf("The sum of an array \n");
+    //the loop is printing the sum of arrays
+      for(int i = 0; i<2;i++){
+        for(int j =0; j<2; j++){
+            printf("%d\t",a[i][j]+b[i][j]);
+        }
+        printf("\n");
+    }
+}
