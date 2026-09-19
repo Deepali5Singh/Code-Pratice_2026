@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main () {
+    int row = 5, i, j, space;
+    // for printing number of rows
+    for( i = 1; i <= row; i++){
+    // for printing space
+        for( space = 1; space = row -1; space++){
+            printf(" ");
+        }
+        //for printing stars
+        for( j = 1; j<=i; j++){
+             printf("* ");
+        }
+        printf("\n");
+    }
+}
